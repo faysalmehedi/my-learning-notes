@@ -6,7 +6,8 @@
 
 <details>
 <summary>JavaScript</summary>
-- [**_Objects_**]https://github.com/faayam/my-learning-notes/blob/main/JavaScript/)
+
+- [**_Objects_**](https://github.com/faayam/my-learning-notes/blob/main/JavaScript/objects-js)
 - [**_Array_**](https://github.com/faayam/my-learning-notes/blob/main/JavaScript/array-js)
--  [**_array basics_**](https://github.com/faayam/my-learning-notes/blob/main/JavaScript/array-js/array_basics.js)
+
 </details>
