@@ -4,11 +4,13 @@
 
 ## Contents
 
-- **_JavaScript_**
-  - [**_array basics_**](https://github.com/faayam/my-learning-notes/blob/main/JavaScript/array-js/array_basics.js)
-  - [**_array basics_**](https://github.com/faayam/my-learning-notes/blob/main/JavaScript/array-js/array_basics.js)
-
 <details>
+<summary>**_JavaScript_**</summary>
+<ul>
+<li>[**_Objects_**]https://github.com/faayam/my-learning-notes/blob/main/JavaScript/)</li>
+<li>[**_Array_**](https://github.com/faayam/my-learning-notes/blob/main/JavaScript/array-js)</li>
+</ul>
+
 <summary>Example</summary>
 <ul><li>This dropdown contains</li>
 <li>a list!</li></ul>
