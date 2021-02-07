@@ -1,7 +1,8 @@
-// Imperative array iteration using for loop
+// array iteration
 
 const drinks = ['Cola', 'Pepsi', 'Lime', 'Peach'];
 
+// Imperative array iteration using for loop
 
 for (let i = 0; i < drinks.length; i++) {
     const drink = drinks[i];
@@ -48,3 +49,11 @@ Pepsi
 found lime, will skip
 Peach
 */
+
+/**************************************************************** */
+
+// using for..of iteration method, which is introduced in es6
+
+for (let drink of drinks) {
+  console.log(`drink: ${drink}`);
+}
