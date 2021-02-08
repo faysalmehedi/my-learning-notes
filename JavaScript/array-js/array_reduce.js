@@ -34,6 +34,24 @@ const drinks = [
     {id: 1006, name: 'Dew', price: 319},
 ];
 
-const drinksValueTotal = drinks.map( (item) => item.price ).reduce( (prev, next) => prev + next );
+// using map and reduce method
+const drinksTotalMap = drinks.map( (item) => item.price ).reduce( (prev, next) => prev + next );
+console.log(drinksTotalMap); // 2034
 
-console.log(drinksValueTotal); // 2034
+// using reduce method, where initial value is needed
+const drinksTotalReduce = drinks.reduce( (prev, next) => prev + next.price, 0 );
+console.log(drinksTotalReduce); // 2034
+
+/**************************************************** */
+// traditioanl / imperative way
+
+let drinksTotalPrice;
+let prev = 0;
+
+for (let i=0; i < drinks.length; i++) {
+    const next = drinks[i];
+    prev = prev + next.price;
+}
+
+drinksTotalPrice = prev;
+console.log(drinksTotalPrice); // 2034
